@@ -21,10 +21,10 @@ from datetime import datetime
 
 def connect_db():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="data_mining_system"
+            host="sql12.freesqldatabase.com",
+            user="sql12788718", 
+            password="zh24wGnPJN", 
+            database="sql12788718" 
     )
 def play_success_sound():
     db = connect_db()
@@ -62,10 +62,10 @@ def save_model_to_db(
     jumlah_fold,
     akurasi_model,
     id_pengguna,
-    host="localhost",
-    user="root",
-    password="",
-    database="data_mining_system"
+    host="sql12.freesqldatabase.com",
+    user="sql12788718", 
+    password="zh24wGnPJN", 
+    database="sql12788718" 
 ):
     try:
         conn = mysql.connector.connect(
