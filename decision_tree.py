@@ -143,7 +143,7 @@ def save_model_to_db(
         conn.close()
 
 
-def save_encoder_to_db(encoders_dict, host="localhost", user="root", password="", database="data_mining_system"):
+def save_encoder_to_db(encoders_dict,host="sql12.freesqldatabase.com",user="sql12788718",password="zh24wGnPJN",database="sql12788718"):
     """
     encoders_dict: dict dengan format {kode_encoder: (nama_encoder, encoder_object)}
     """
