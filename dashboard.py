@@ -5,10 +5,10 @@ import mysql.connector
 def connect_to_db():
     try:
         return mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="data_mining_system"
+            host="sql12.freesqldatabase.com",
+            user="sql12788718", 
+            password="zh24wGnPJN", 
+            database="sql12788718" 
         )
     except mysql.connector.Error as e:
         st.error(f"Gagal terhubung ke database: {e}")
