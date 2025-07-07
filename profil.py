@@ -9,10 +9,10 @@ import streamlit.components.v1 as components
 
 def connect_db():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="data_mining_system"
+            host="sql12.freesqldatabase.com",
+            user="sql12788718", 
+            password="zh24wGnPJN", 
+            database="sql12788718" 
     )
 def play_success_sound():
     db = connect_db()
